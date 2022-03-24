@@ -7,7 +7,7 @@
     "build": "nx build",
     "test": "nx test",
     "affected:lint": "nx affected:lint",
-    "heroku-postbuild": "nx build --prod"
+    "heroku-postbuild": "nx build $PROJECT_NAME --prod"
   },
   "private": true,
   "dependencies": {
